@@ -55,8 +55,11 @@ img#me, .org {
 }
 
 .flexy {
+  display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;
   margin-top: 60px;
 }
 
@@ -129,7 +132,7 @@ a .fa:hover {
   margin-bottom: 60px;
 }
 
-@media only screen and (max-width : 901px) {
+@media only screen and (max-width: 901px) {
 
   .col-1 {
     margin-left: 5%;
@@ -140,6 +143,7 @@ a .fa:hover {
   .col-2 {
     margin-left: 5%;
     width: 90%;
+    float: left;
   }
 
   .header-col-1 {
@@ -153,6 +157,7 @@ a .fa:hover {
 }
 
 @media only screen and (max-width: 601px) {
+
   .header-col-1 {
     margin-left: 5%;
     width: 90%;
