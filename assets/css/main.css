@@ -1,173 +1,56 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: Victoria vCard - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
-
 body {
-  font-family: "Helvetica";
-  font-weight: 500;
-  font-size: 16px;
-  color: #555;
+  font-family: "Futura";
+  text-align: center;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+#drewman {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 64px;
+  color: #FF7777;
+}
+
+.grid-item {
+  background: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  width: 350px;
   margin-bottom: 40px;
 }
 
-h1 {
-  margin-bottom: 5px;
-  font-weight: 900;
-  font-size: 36px;
-  color: #333;
+img {
+  border-radius: 5px;
 }
 
-h2 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 28px;
-  color: #939393;
-  display: inline-block;
-}
-
-h3 {
-  font-weight: 700;
-  font-size: 24px;
-  color: #333;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.project-title {
-  font-weight: 700;
-  font-size: 24px;
-  color: #333;
-}
-
-h4 {
-  margin: 0;
-  color: #939393;
-}
-
-img#me, .org {
-  border-radius: 50%;
-}
-
-.flexy {
-  display: -webkit-flex;
-  display: flex;
-  display: -webkit-flex; /* Safari */
-  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
-  display: flex;
-  margin-top: 60px;
-}
-
-.col-1 {
-  margin-left: 10%;
-  width: 25%;
-  margin-right: 5%;
-}
-
-.col-2 {
-  width: 50%;
-}
-
-.mail {
-  color: #158cba;
-  text-decoration: none;
-}
-
-a .fa {
-  color: #555;
-  text-decoration: none;
-  margin-right: 10px;
-}
-
-a .fa:hover {
-  color: #158cba;
-}
-
-.fa-envelope {
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.fa-linkedin, .fa-github {
-  font-size: 32px;
-  margin-right: 5px;
-}
-
-.fa-briefcase, .fa-graduation-cap,
-.fa-wrench, .fa-paint-brush {
-  margin-top: 10px;
-  margin-right: 5px;
-  font-size: 24px;
+.info {
+  display: none;
+  position: absolute;
+  background: #333;
+  opacity: 0.9;
   color: white;
-  background-color: #939393;
-  padding: 10px;
-  border-radius: 50%;
+  text-decoration: none;
+  font-size: 16px;
+  width: 95%;
+  height: 92%;
 }
 
-.social {
-  display: inline-block;
+.description {
+  text-align: left;
+  padding: 0 20px;
+  line-height: 24px;
 }
 
-.content { vertical-align:middle; }
-.lcol { display:inline-block;vertical-align:middle;}
-
-.skills {
-  margin-top: 20px;
-  font-weight: 500;
-  font-size: 22px;
-  color: #333;
+.grid-item:hover .info{
+  display: block;
 }
 
-.project {
-  margin-top: 60px;
-  margin-bottom: 60px;
+#social {
+  margin-bottom: 20px;
 }
 
-.app-academy {
-  margin-bottom: 60px;
-}
-
-@media only screen and (max-width: 901px) {
-
-  .col-1 {
-    margin-left: 5%;
-    width: 90%;
-    margin-bottom: 20px;
-  }
-
-  .col-2 {
-    margin-left: 5%;
-    width: 90%;
-    float: left;
-  }
-
-  .header-col-1 {
-    margin-left: 10%;
-    width: 25%;
-  }
-
-  .header-col-2 {
-    width: 55%;
-  }
-}
-
-@media only screen and (max-width: 601px) {
-
-  .header-col-1 {
-    margin-left: 5%;
-    width: 90%;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .header-col-2 {
-    margin-left: 5%;
-    width: 90%;
-    text-align: center;
-  }
+i {
+  margin-right: 5px;
 }
