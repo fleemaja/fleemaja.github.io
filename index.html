@@ -200,13 +200,16 @@
       </div>
     </div>
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.1/masonry.pkgd.min.js"></script>
     <script>
-        var msnry = new Masonry( '.grid', {
-           columnWidth: 350,
-           isFitWidth: true,
-           gutter: 40,
-           itemSelector: '.grid-item'
+        $(window).ready(function() {
+          var msnry = new Masonry( '.grid', {
+             columnWidth: 350,
+             isFitWidth: true,
+             gutter: 40,
+             itemSelector: '.grid-item'
+          });
         });
     </script>
   </body>
