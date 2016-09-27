@@ -10,7 +10,7 @@ body {
 #drewman {
   font-family: 'Permanent Marker', cursive;
   font-size: 64px;
-  color: #FF7777;
+  color: rgba(24, 15, 12, 0.8);
 }
 
 .grid-item {
@@ -51,6 +51,11 @@ img {
   margin-bottom: 20px;
 }
 
+a {
+  color: #428bca;
+}
+
 i {
   margin-right: 5px;
+  color: #433;
 }
