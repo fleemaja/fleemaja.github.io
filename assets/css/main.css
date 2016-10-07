@@ -1,6 +1,7 @@
 body {
   font-family: "Futura", sans-serif;
   text-align: center;
+  margin: 0;
 }
 
 .grid {
@@ -8,9 +9,12 @@ body {
 }
 
 #drewman {
+  background: orange;
   font-family: 'Permanent Marker', cursive;
   font-size: 64px;
-  color: rgba(24, 15, 12, 0.8);
+  color: white;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .grid-item {
@@ -18,7 +22,7 @@ body {
   padding: 10px;
   border-radius: 5px;
   width: 350px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 img {
@@ -58,4 +62,20 @@ a {
 i {
   margin-right: 5px;
   color: #433;
+}
+
+@media only screen and (max-width: 525px) {
+  #drewman {
+    font-size: 42px;
+  }
+
+  .grid-item, img {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #drewman {
+    font-size: 36px;
+  }
 }
