@@ -2,6 +2,7 @@ body {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   text-align: center;
   margin: 0;
+  margin-bottom: 40px;
   background: #E9E9E9;
 }
 
@@ -55,10 +56,6 @@ img {
   color: #333;
 }
 
-a {
-  color: #428bca;
-}
-
 i {
   margin-right: 5px;
   color: #333;
@@ -68,10 +65,13 @@ i {
   color: orange;
 }
 
-#social {
-  background: white;
-  margin: 0;
-  padding: 10px 0px;
+#social span {
+  font-size: 48px;
+  margin: 0px 10px;
+}
+
+i:hover {
+  color: orange;
 }
 
 @media only screen and (max-width: 525px) {
@@ -81,6 +81,7 @@ i {
 
   .grid-item, img {
     width: 300px;
+    margin-left: 3%;
   }
 }
 
