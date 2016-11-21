@@ -12,10 +12,17 @@ body {
 
 #drewman {
   background: white;
+  font-family: 'Finger Paint', cursive;
   font-size: 64px;
   color: #232323;
+  padding-bottom: 5px;
   margin: 0px;
   margin-bottom: 40px;
+}
+
+#drew-fleeman {
+  padding: 0;
+  margin: 0;
 }
 
 .grid-item {
@@ -63,6 +70,14 @@ i {
 
 .fa-bolt {
   color: orange;
+}
+
+#web-dev {
+  padding: 0;
+  margin: 0;
+  font-family: 'Finger Paint', cursive;
+  font-size: 16px;
+  color: #777;
 }
 
 #social span {
