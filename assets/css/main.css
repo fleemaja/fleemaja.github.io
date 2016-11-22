@@ -3,7 +3,7 @@ body {
   text-align: center;
   margin: 0;
   margin-bottom: 40px;
-  background: #E9E9E9;
+  background: #F0F0F0;
 }
 
 .grid {
@@ -12,7 +12,7 @@ body {
 
 #drewman {
   background: white;
-  font-family: 'Finger Paint', cursive;
+  font-family: 'Finger Paint', Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 64px;
   color: #232323;
   padding-bottom: 5px;
@@ -75,7 +75,7 @@ i {
 #web-dev {
   padding: 0;
   margin: 0;
-  font-family: 'Finger Paint', cursive;
+  font-family: 'Finger Paint', Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 16px;
   color: #777;
 }
