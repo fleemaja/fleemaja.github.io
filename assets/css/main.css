@@ -29,6 +29,9 @@ body {
   border-radius: 5px;
   width: 350px;
   margin-bottom: 40px;
+  -webkit-box-shadow: 7px 7px 5px #aaa;
+  -moz-box-shadow: 7px 7px 5px #aaa;
+  box-shadow: 7px 7px 5px #aaa;
 }
 
 img {
