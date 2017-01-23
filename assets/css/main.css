@@ -12,7 +12,6 @@ body {
 
 #drewman {
   background: white;
-  font-family: 'Finger Paint', Futura, "Trebuchet MS", Arial, sans-serif;
   color: #232323;
   padding-bottom: 5px;
   margin: 0px;
@@ -81,7 +80,6 @@ i {
 #web-dev {
   padding: 0;
   margin: 0;
-  font-family: 'Finger Paint', Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 16px;
   color: #777;
 }
