@@ -1,5 +1,5 @@
 body {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Trebuchet MS", Futura, Arial, sans-serif;
   text-align: center;
   margin: 0;
   margin-bottom: 40px;
@@ -16,8 +16,6 @@ body {
   padding-bottom: 5px;
   margin: 0px;
   margin-bottom: 40px;
-  -webkit-box-shadow: 0px 0px 20px #aaa;
-  -moz-box-shadow: 0px 0px 20px #aaa;
   box-shadow: 0px 0px 20px #aaa;
 }
 
@@ -31,8 +29,6 @@ body {
   border-radius: 5px;
   width: 350px;
   margin-bottom: 40px;
-  -webkit-box-shadow: 0px 0px 20px #aaa;
-  -moz-box-shadow: 0px 0px 20px #aaa;
   box-shadow: 0px 0px 20px #aaa;
 }
 
@@ -41,10 +37,11 @@ img {
 }
 
 .info {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .2s, opacity .2s linear;
   position: absolute;
   background: #333;
-  opacity: 0.9;
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -60,6 +57,8 @@ img {
 
 .grid-item:hover .info{
   display: block;
+  visibility: visible;
+  opacity: 0.9;
 }
 
 #social {
