@@ -72,8 +72,9 @@ i {
   color: #333;
 }
 
-.fa-bolt {
-  color: orange;
+.fa-code {
+  margin: 0px 3px;
+  color: lightsteelblue;
 }
 
 #web-dev {
