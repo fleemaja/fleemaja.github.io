@@ -70,12 +70,17 @@ img {
 i {
   margin-right: 5px;
   color: #333;
+  transition: all .4s ease-in-out;
 }
 
-.fa-code {
+i:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+/*.fa-code {
   margin: 0px 3px;
   color: lightsteelblue;
-}
+}*/
 
 #web-dev {
   padding: 0;
@@ -87,10 +92,6 @@ i {
 #social span {
   font-size: 48px;
   margin: 0px 10px;
-}
-
-i:hover {
-  color: orange;
 }
 
 @media only screen and (max-width: 525px) {
